@@ -1,0 +1,329 @@
+html { 
+  scroll-behavior: smooth;
+}
+body { 
+  background-color: #000000;
+  color: white;
+}
+.container {
+  display: flex;
+  background-color:#242424;
+  border-radius:15px;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(57, 48, 48, 0.5);
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 1230px;
+}
+.container:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(57, 48, 48, 0.8);
+}
+.MRU-logo {
+  margin: 0 0; 
+  width: 200px;
+  height: auto;
+}
+.internal-links a:link,
+.internal-links a:visited,
+.internal-links a:active {
+  color: white;
+  margin: 0 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.internal-links a:hover {
+  color: #1e90ff;
+  text-decoration: underline;
+  transition: color 0.4s, text-decoration 0.4s;
+}
+.google-logo {
+  width: 100px;
+  height: auto;
+  margin: 0 0;
+}
+hr {
+  border: 1px solid rgb(146, 146, 146);
+  opacity: 0.4;
+}
+.about {
+  width: auto;
+  background-color: #242424;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(57, 48, 48, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 1200px;
+}
+.about:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(57, 48, 48, 0.8);
+}
+.about-heading {
+  text-align: center;
+  font-family: "Modern no. 20";
+  font-style: bold;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+.about-content {
+  display: flex;             
+  align-items: center;        
+  gap: 20px;                 
+}
+.about-image {
+  width: 500px;   
+  height: auto;                 
+  margin: 0;              
+}
+.about-txt {
+  font-family: "Century Gothic";
+  font-size: 18px;
+  line-height: 1.7;
+}
+.depart-heading {
+  width: auto;
+  text-align: center;
+  background-color:#242424;
+  font-family: "Arial black";
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 3px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(57, 48, 48, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  max-width: 1240px;
+}
+.depart-heading:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 10px rgba(57, 48, 48, 0.8);
+}
+.depart {
+  display: flex;
+  background-color: #242424;
+  border-radius: 15px;
+}
+.Schools {
+  width:auto;
+  font-family: "Modern no. 20";
+  font-style: bold;
+  font-size: 40px;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+.depart-image {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.depart-text { 
+  font-family: "century gothic";
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.7;
+}
+.instit {
+  font-size: 20px;
+}
+.ul-list {
+  line-height: 50px;
+}
+.soe:link,
+.soe:visited,
+.soe:active {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+}
+.soe:hover {
+  color: #1e90ff;
+  text-decoration: underline;
+  transition: color 0.4s, text-decoration 0.4s;
+}
+.accreditation {
+  width: auto;
+  text-align: center;
+  background-color:#242424;
+  font-family: "Arial black";
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 3px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(57, 48, 48, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  max-width: 1240px;
+}
+.accreditation:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 10px rgba(57, 48, 48, 0.8);
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+.accreditation-heading {
+  font-family: "Modern no. 20";
+  font-style: bold;
+  font-size: 40px;
+  text-align: center;
+  font-size: 32px;
+}
+.box {
+  background: #333333;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  flex: 1; 
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.box:hover {
+  transform: scale(1.05);
+}
+.nba-image{
+  width: 70%;
+  height: auto;
+  border-radius: 8px;
+  padding-top: 40px;
+}
+.ugc-image {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+}
+.caption {
+  color: #EEEEEE;
+  margin-top: 10px;
+}
+.rankings {
+  width: auto;
+  text-align: center;
+  background-color:#242424;
+  font-family: "Arial black";
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 3px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(57, 48, 48, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  max-width: 1240px;
+}
+.rankings:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 10px rgba(57, 48, 48, 0.8);
+}
+.rankings-heading {
+  font-family: "Modern no. 20";
+  font-style: bold;
+  font-size: 40px;
+  text-align: center;
+  font-size: 32px;
+}
+.image-container2 {
+  display: flex; 
+  justify-content: center;
+  gap: 30px; 
+  margin-top: 40px;
+}
+.box2 {
+  background: #333333;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  flex: 1;
+  max-width: 250px;
+  height: 150px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.box2:hover {
+  transform: scale(1.05);
+}
+.nirf-image {
+  width: 50%; 
+  height: auto;
+  border-radius: 8px;
+}
+.qs-image {
+  width: 50%; 
+  height: auto;
+  border-radius: 8px;
+  padding-top: 50px;
+}
+.icare-image {
+  width: 50%; 
+  height: auto;
+  border-radius: 8px;
+  padding-top: 50px;
+}
+.caption2 {
+  color: #EEEEEE;
+  margin-top: 10px;
+}
+.alumni {
+  width: auto;
+  text-align: center;
+  background-color:#242424;
+  font-family: "Arial black";
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 3px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(57, 48, 48, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 1240px;
+}
+.alumni:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 10px rgba(57, 48, 48, 0.8);
+}
+.alumni-heading {
+  font-family: "Modern no. 20";
+  font-style: bold;
+  font-size: 40px;
+  text-align: center;
+  font-size: 32px;
+}
+.alumni-container {
+  display: flex; 
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column; 
+  gap: 25px; 
+}
+
+.alumni-box {
+  background: #333333;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.alumni-box:hover {
+  transform: scale(1.05);
+}
+
+.alumni-box img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.caption3 {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #B0B0B0;
+}
